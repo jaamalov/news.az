@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.topbar-bg{
+    background-color:#1d1d1d;
+}
+a{
+    text-decoration: none;
+}
+.topbar{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+    margin: 0;
+    padding: 16px;
+}
+.info li{
+    margin-right: 20px;
+    color: #999999;
+    font-size: 14px;
+    list-style-type: none;
+}
+.fa-location-dot{
+    margin-right: 5px;
+}
+.fa-cloud{
+    margin-right: 5px;
+}
+.fa-calendar-days{
+    margin-right: 5px;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+.links a{
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.mainbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.cur{
+    list-style-type: none;
+    display: flex;
+}
+.fa-dollar-sign{
+    color: #3b5998;
+    border: 1px solid #3b5998;
+    border-radius: 40px ;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    padding: 18px 10px 10px 20px;
+    margin-right: 50px;
+}
+.fa-euro-sign{
+    color: #d34836;
+    border: 1px solid #d34836;
+    border-radius: 40px ;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    padding: 18px 10px 10px 20px;
+    margin-right: 50px;
+}
+.fa-ruble-sign{
+    color: #00aced;
+    border: 1px solid #00aced;
+    border-radius: 40px ;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    padding: 18px 10px 10px 20px;
+    margin-right: 50px;
+}
+.fa-turkish-lira-sign{
+    color: #fe7317;
+    border: 1px solid #fe7317;
+    border-radius: 40px ;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    padding: 18px 10px 10px 20px;
+    margin-right: 50px;
+}
+.val{
+    list-style-type: none;
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.usd{
+    margin-right: 73px;
+}
+.eur{
+    margin-right: 58px;
+}
+.rub{
+    margin-right: 58px;
+}
+.navbar-bg{
+    background-color: #da0000;
+}
+.navbar{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    padding: 20px 14px;
+    margin: 0;
+    border: solid #da0000 1px;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    margin-right: 28px;
+    color: white;
+}
+.search{
+    margin-left: auto;
+}
+.fa-magnifying-glass{
+    color: white;
+}
+.fa-angle-down{
+    margin-left: 5px;
+}
+.news-ticker{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 15px;
+}
+.news-ticker a{
+    color: #da0000;
+}
+.title{
+    background-color: #1d1d1d;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.title h2{
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+}
+.news-upd{
+    margin-left: 12px;
+    display: flex;
+}
+.news-upd h3{
+    font-size: inherit;
+    color: #da0000ed;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.main-content{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.main-content h2{
+    font-size: 14px;
+    color:#da0000ed;
+}
+.main-content a{
+    color: #da0000;
+}
+.post-1{
+    margin-right: 15px;
+}
+.post-1 img{
+    width: 562.5px;
+}
+.post-r-u{
+    display: flex;
+    margin-bottom: 24px;
+}
+.post-r-u-a{
+    margin-right: 15px;
+    width: 273.75px;
+    height: 174.06px;
+}
+.post-r img{
+    width: 273.75px;
+}
+.post-r h2{
+    margin: 0;
+}
+.post-r-d{
+    display: flex;
+}
+.post-r-d-a{
+    width: 273.75px;
+    height: 174.06px;
+    margin-right: 15px;
+}
+.post-r-d-b{
+    width: 273.75px;
+    height: 174.06px;
+}
